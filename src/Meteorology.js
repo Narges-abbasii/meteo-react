@@ -52,7 +52,7 @@ export default function Meteorology() {
           </form>
         </header>
         <main>
-          <ul>
+          <ul className="Weather-info">
             <li>Temperature: {Math.round(temperature)}°C</li>
             <li>Description: {description}</li>
             <li>Humidity: {humidity}%</li>
@@ -72,7 +72,7 @@ export default function Meteorology() {
           </a>{" "}
           and is on
           <a
-            href="https://github.com/Narges-abbasii/Meteorology"
+            href="https://github.com/Narges-abbasii/meteo-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -81,7 +81,7 @@ export default function Meteorology() {
           </a>{" "}
           and
           <a
-            href="https://meteorology-sigma.vercel.app/"
+            href="https://meteo-react-three.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -127,7 +127,7 @@ export default function Meteorology() {
           </a>{" "}
           and is on
           <a
-            href="https://github.com/Narges-abbasii/Meteorology"
+            href="https://github.com/Narges-abbasii/meteo-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -136,7 +136,7 @@ export default function Meteorology() {
           </a>{" "}
           and
           <a
-            href="https://meteorology-sigma.vercel.app/"
+            href="https://meteo-react-three.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
